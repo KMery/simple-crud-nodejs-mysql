@@ -1,0 +1,19 @@
+GET http://localhost:7000/product/1
+###
+GET http://localhost:7000/products
+###
+POST http://localhost:7000/products
+Content-Type: application/json
+
+{
+    "plate": "salad",
+    "price": 75
+}
+###
+PUT http://localhost:7000/products
+Content-Type: application/json
+
+{
+    "plate": "salad",
+    "price": 75
+}
